@@ -9,7 +9,6 @@
 client_firstSpawn = true;
 
 [] execVM "client\functions\welcomeMessage.sqf";
-[] execVM "addons\IntroCam\intro.sqf";
 
 player addEventHandler ["Take",
 {
