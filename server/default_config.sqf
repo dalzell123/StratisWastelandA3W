@@ -17,13 +17,13 @@ A3W_globalVoiceWarnTimer = 3;      // Number of seconds for which global voice c
 A3W_globalVoiceMaxWarns = 3;       // Number of global voice warnings after which the player will be killed and crashed (0 = disabled)
 A3W_antiHackMinRecoil = 1.0;       // Mininum recoil coefficient enforced by the antihack (recommended values: default = 1.0, TMR Mod = 0.5, VTS Weapon Resting = 0.25)
 A3W_spawnBeaconCooldown = 5*60;    // Number of seconds to wait between each use of an individual spawn beacon (0 = disabled)
-A3W_spawnBeaconSpawnHeight = 1500; // Altitude in meters at which players will spawn when using spawn beacons (0 = ground/sea)
+A3W_spawnBeaconSpawnHeight = 1250; // Altitude in meters at which players will spawn when using spawn beacons (0 = ground/sea)
 
 // Store settings
 A3W_showGunStoreStatus = 1;        // Show enemy and friendly presence at gunstores on map (0 = no, 1 = yes)
 A3W_gunStoreIntruderWarning = 1;   // Warn players in gunstore areas of enemy intruders (0 = no, 1 = yes)
 A3W_remoteBombStoreRadius = 75;    // Prevent players from placing remote explosives within this distance from any store (0 = disabled)
-A3W_vehiclePurchaseCooldown = 60;  // Number of seconds to wait before allowing someone to purchase another vehicle, don't bother setting it too high because it can be bypassed by rejoining
+A3W_vehiclePurchaseCooldown = 30;  // Number of seconds to wait before allowing someone to purchase another vehicle, don't bother setting it too high because it can be bypassed by rejoining
 
 // Player settings
 A3W_startingMoney = 5000;           // Amount of money that players start with
@@ -33,7 +33,7 @@ A3W_bleedingTime = 120;             // Time in seconds for which to allow revive
 // Persistence settings
 A3W_playerSaving = 1;              // Save player data like position, health, inventory, etc. (0 = no, 1 = yes)
 A3W_moneySaving = 1;               // If playerSaving = 1, save player money amount (0 = no, 1 = yes)
-A3W_combatAbortDelay = 30;         // If playerSaving = 1, delay in seconds for which to disable abort and respawn buttons after firing or being shot (0 = none)
+A3W_combatAbortDelay = 15;         // If playerSaving = 1, delay in seconds for which to disable abort and respawn buttons after firing or being shot (0 = none)
 A3W_purchasedVehicleSaving = 1;    // Save vehicles purchased at vehicle stores between server restarts (0 = no, 1 = yes)
 A3W_missionVehicleSaving = 0;      // Save vehicles captured from missions between server restarts (0 = no, 1 = yes)
 A3W_baseSaving = 1;                // Save locked base parts between server restarts (0 = no, 1 = yes)
@@ -42,9 +42,9 @@ A3W_staticWeaponSaving = 0;        // Save locked static weapons and their magaz
 A3W_warchestSaving = 1;            // Save warchest objects deployed by players between server restarts (0 = no, 1 = yes)
 A3W_warchestMoneySaving = 1;       // Save warchest team money between server restarts (0 = no, 1 = yes)
 A3W_spawnBeaconSaving = 0;         // Save spawn beacons between server restarts (0 = no, 1 = yes)
-A3W_objectLifetime = 18;         // Maximum lifetime in hours for saved objects (baseparts, crates, etc. except vehicles) across server restarts (0 = no time limit)
-A3W_vehicleLifetime = 18;           // Maximum lifetime in hours for saved vehicles across server restarts, regardless of usage (0 = no time limit)
-A3W_vehicleMaxUnusedTime = 1;   // Maximum parking time in hours after which unused saved vehicles will be marked for deletion (0 = no time limit)
+A3W_objectLifetime = 12;         // Maximum lifetime in hours for saved objects (baseparts, crates, etc. except vehicles) across server restarts (0 = no time limit)
+A3W_vehicleLifetime = 12;           // Maximum lifetime in hours for saved vehicles across server restarts, regardless of usage (0 = no time limit)
+A3W_vehicleMaxUnusedTime = 2;   // Maximum parking time in hours after which unused saved vehicles will be marked for deletion (0 = no time limit)
 PDB_PlayerFileID = "A3W_";         // Player savefile prefix (change this in case you run multiple servers from the same folder)
 PDB_ObjectFileID = "A3W_";         // Object savefile prefix (change this in case you run multiple servers from the same folder)
 
