@@ -31,7 +31,7 @@ else
 	[
 		// Put player UIDs here
 		
-		"76561198054636476" //stress head
+		"76561198054636476" //Boyd
 	];
 
 	// High Administrators: manage & spectate players, remove hacked vehicles, show player tags
