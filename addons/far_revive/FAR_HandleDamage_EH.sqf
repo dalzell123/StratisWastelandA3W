@@ -99,12 +99,12 @@ else
 		{
 			terminate FAR_Player_Unconscious_thread;
 		};
-		
+
 		closeDialog ReviveBlankGUI_IDD;
 		closeDialog ReviveGUI_IDD;
 
 		FAR_Player_Unconscious_thread = [_unit, _source] spawn FAR_Player_Unconscious;
-		
+
 		_damage = 0.5;
 
 		diag_log format ["INCAPACITATED by [%1] with [%2]", _source, _ammo];
