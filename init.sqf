@@ -72,4 +72,5 @@ if (isServer) then
 [] execVM "addons\JumpMF\init.sqf";
 [] execVM "scripts\earplug\earplugInit.sqf";
 [] execVM "module_performance\init.sqf";
+[] execVM "addons\Explosives-To-Vehicle\init.sqf";
 [] execVM "addons\outlw_magRepack\MagRepack_init_sv.sqf"
