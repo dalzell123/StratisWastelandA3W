@@ -38,7 +38,7 @@ else
 	highAdmins = compileFinal str
 	[
 		// Put player UIDs here
-		"76561198079506648" //The_colonel
+		
 		
 		
 
@@ -52,6 +52,7 @@ else
 		"76561198008596823", //Mokey
 		"76561197973729730", //Korimer
 		"76561197992507229", //Archangel
+		"76561198079506648", //The_colonel
 		"76561197982993776" //TexasOutlaw
 	];
 

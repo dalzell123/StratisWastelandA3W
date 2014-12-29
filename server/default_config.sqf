@@ -42,8 +42,8 @@ A3W_staticWeaponSaving = 0;        // Save locked static weapons and their magaz
 A3W_warchestSaving = 1;            // Save warchest objects deployed by players between server restarts (0 = no, 1 = yes)
 A3W_warchestMoneySaving = 1;       // Save warchest team money between server restarts (0 = no, 1 = yes)
 A3W_spawnBeaconSaving = 0;         // Save spawn beacons between server restarts (0 = no, 1 = yes)
-A3W_objectLifetime = 2*24;         // Maximum lifetime in hours for saved objects (baseparts, crates, etc. except vehicles) across server restarts (0 = no time limit)
-A3W_vehicleLifetime = 2*24;           // Maximum lifetime in hours for saved vehicles across server restarts, regardless of usage (0 = no time limit)
+A3W_objectLifetime = 18;         // Maximum lifetime in hours for saved objects (baseparts, crates, etc. except vehicles) across server restarts (0 = no time limit)
+A3W_vehicleLifetime = 18;           // Maximum lifetime in hours for saved vehicles across server restarts, regardless of usage (0 = no time limit)
 A3W_vehicleMaxUnusedTime = 1;   // Maximum parking time in hours after which unused saved vehicles will be marked for deletion (0 = no time limit)
 PDB_PlayerFileID = "A3W_";         // Player savefile prefix (change this in case you run multiple servers from the same folder)
 PDB_ObjectFileID = "A3W_";         // Object savefile prefix (change this in case you run multiple servers from the same folder)
@@ -67,8 +67,8 @@ A3W_vehicleLoot = 2;               // Level of loot added to vehicles (0 = none,
 // Territory settings
 A3W_territoryCaptureTime = 3*60;   // Time in seconds needed to capture a territory
 A3W_territoryPayroll = 1;          // Periodically reward sides and indie groups based on how many territories they own (0 = no, 1 = yes)
-A3W_payrollInterval = 15*60;       // Delay in seconds between each payroll
-A3W_payrollAmount = 250;           // Amount of money rewarded per territory on each payroll
+A3W_payrollInterval = 30*60;       // Delay in seconds between each payroll
+A3W_payrollAmount = 500;           // Amount of money rewarded per territory on each payroll
 
 // Mission settings
 A3W_serverMissions = 1;            // Enable server missions (0 = no, 1 = yes)
